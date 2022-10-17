@@ -4,8 +4,9 @@ using System.Text;
 
 namespace MaoNaMassaPOO.ContentContext
 {
-    class Carreira : Conteudo
+    public class Aula
     {
-        public int Cursos { get; set; }
+        public int Ordem { get; set; }
+        public string Titulo { get; set; }
     }
 }

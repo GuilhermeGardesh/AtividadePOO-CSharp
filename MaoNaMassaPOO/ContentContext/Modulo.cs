@@ -4,15 +4,14 @@ using System.Text;
 
 namespace MaoNaMassaPOO.ContentContext
 {
-    public abstract class Conteudo
+    public class Modulo
     {
-        public Conteudo()
+        public Modulo()
         {
-            Id = Guid.NewGuid();
+            Aulas = new List<Aula>();
         }
-
-        public Guid Id { get; set; }
+        public int Ordem { get; set; }
         public string Titulo { get; set; }
-        public string Url { get; set; }
+        public IList<Aula> Aulas { get; set; }
     }
 }

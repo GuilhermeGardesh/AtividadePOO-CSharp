@@ -6,6 +6,6 @@ namespace MaoNaMassaPOO.ContentContext
 {
     class Artigo : Conteudo
     {
-        
+
     }
 }
