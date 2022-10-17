@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MaoNaMassaPOO.ContentContext;
+using System;
 
 namespace MaoNaMassaPOO
 {
@@ -7,6 +8,7 @@ namespace MaoNaMassaPOO
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            var a = new Artigo();
         }
     }
 }
