@@ -1,7 +1,7 @@
-﻿using MaoNaMassaPOO.ContentContext.Enums;
+﻿using MaoNaMassaPOO.ConteudoContext.Enums;
 using System.Collections.Generic;
 
-namespace MaoNaMassaPOO.ContentContext
+namespace MaoNaMassaPOO.ConteudoContext
 {
     public class Curso : Conteudo
     {

@@ -1,6 +1,6 @@
-﻿using MaoNaMassaPOO.ContentContext.Enums;
+﻿using MaoNaMassaPOO.ConteudoContext.Enums;
 
-namespace MaoNaMassaPOO.ContentContext
+namespace MaoNaMassaPOO.ConteudoContext
 {
     public class Aula
     {

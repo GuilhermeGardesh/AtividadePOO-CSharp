@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MaoNaMassaPOO.ContentContext
+namespace MaoNaMassaPOO.ConteudoContext
 {
     public abstract class Conteudo
     {

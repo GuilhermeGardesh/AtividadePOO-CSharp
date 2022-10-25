@@ -1,4 +1,4 @@
-﻿namespace MaoNaMassaPOO.ContentContext.Enums
+﻿namespace MaoNaMassaPOO.ConteudoContext.Enums
 {
     public enum ENiveisDoConteudo
     {

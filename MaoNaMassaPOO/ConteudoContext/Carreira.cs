@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace MaoNaMassaPOO.ContentContext
+namespace MaoNaMassaPOO.ConteudoContext
 {
     class Carreira : Conteudo
     {

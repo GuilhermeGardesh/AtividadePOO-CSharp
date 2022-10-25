@@ -1,4 +1,4 @@
-﻿namespace MaoNaMassaPOO.ContentContext
+﻿namespace MaoNaMassaPOO.ConteudoContext
 {
     public class ItensDaCarreira
     {
