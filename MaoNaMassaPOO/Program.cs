@@ -1,5 +1,5 @@
 ﻿using MaoNaMassaPOO.ContentContext;
-using System;
+using System.Collections.Generic;
 
 namespace MaoNaMassaPOO
 {
@@ -7,8 +7,6 @@ namespace MaoNaMassaPOO
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            var a = new Artigo();
         }
     }
 }

@@ -1,14 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace MaoNaMassaPOO.ContentContext
 {
     public abstract class Conteudo
     {
-        public Conteudo()
+        public Conteudo(string titulo, string url)
         {
             Id = Guid.NewGuid();
+            Titulo = titulo;
+            Url = url;
         }
 
         public Guid Id { get; set; }

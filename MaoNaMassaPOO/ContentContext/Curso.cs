@@ -1,16 +1,18 @@
-﻿using System;
+﻿using MaoNaMassaPOO.ContentContext.Enums;
 using System.Collections.Generic;
-using System.Text;
 
 namespace MaoNaMassaPOO.ContentContext
 {
     public class Curso : Conteudo
     {
-        public Curso()
+        public Curso(string titulo, string url)
+            : base(titulo, url)
         {
             Modulos = new List<Modulo>();
         }
         public string Tag { get; set; }
         public IList<Modulo> Modulos { get; set; }
+        public int DucacaoEmMinutos { get; set; }
+        public EContentLevel Level { get; set; }
     }
 }

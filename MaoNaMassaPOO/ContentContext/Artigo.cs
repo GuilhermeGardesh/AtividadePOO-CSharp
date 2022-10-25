@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MaoNaMassaPOO.ContentContext
+﻿namespace MaoNaMassaPOO.ContentContext
 {
     class Artigo : Conteudo
     {
-
+        public Artigo(string titulo, string url)
+            :base (titulo, url) 
+        {
+        }
     }
 }

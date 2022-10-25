@@ -1,11 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace MaoNaMassaPOO.ContentContext
 {
     class Carreira : Conteudo
     {
-        public int Cursos { get; set; }
+        public Carreira(string titulo, string url)
+            : base(titulo, url)
+        {
+            Itens = new List<ItensDaCarreira>();
+        }
+        public IList<ItensDaCarreira> Itens { get; set; }
+        public int TotalDeCursos => Itens.Count;
     }
 }
