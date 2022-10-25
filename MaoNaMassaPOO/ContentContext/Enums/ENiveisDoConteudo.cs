@@ -1,6 +1,6 @@
 ﻿namespace MaoNaMassaPOO.ContentContext.Enums
 {
-    public enum EContentLevel
+    public enum ENiveisDoConteudo
     {
         Iniciante = 1,
         Fundamental = 2,

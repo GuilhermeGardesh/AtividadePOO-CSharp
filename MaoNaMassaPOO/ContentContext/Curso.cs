@@ -13,6 +13,6 @@ namespace MaoNaMassaPOO.ContentContext
         public string Tag { get; set; }
         public IList<Modulo> Modulos { get; set; }
         public int DucacaoEmMinutos { get; set; }
-        public EContentLevel Level { get; set; }
+        public ENiveisDoConteudo Level { get; set; }
     }
 }
