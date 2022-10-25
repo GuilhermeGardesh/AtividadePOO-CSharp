@@ -1,7 +1,4 @@
-﻿using MaoNaMassaPOO.ContentContext;
-using System.Collections.Generic;
-
-namespace MaoNaMassaPOO
+﻿namespace MaoNaMassaPOO
 {
     class Program
     {
