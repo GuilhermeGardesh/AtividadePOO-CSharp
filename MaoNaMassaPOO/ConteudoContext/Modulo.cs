@@ -2,7 +2,7 @@
 
 namespace MaoNaMassaPOO.ConteudoContext
 {
-    public class Modulo
+    public class Modulo : Base
     {
         public Modulo()
         {

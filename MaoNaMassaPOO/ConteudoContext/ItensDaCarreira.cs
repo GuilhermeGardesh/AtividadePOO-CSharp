@@ -1,6 +1,6 @@
 ﻿namespace MaoNaMassaPOO.ConteudoContext
 {
-    public class ItensDaCarreira
+    public class ItensDaCarreira : Base
     {
         public ItensDaCarreira(
             int ordem, 
