@@ -7,7 +7,7 @@ namespace MaoNaMassaPOO.NotificacaoContext
 {
     public abstract class Notificavel
     {
-        public List<Notificacao> Notificacoes{ get; set; }
+        public List<Notificacao> Notificacoes { get; set; }
 
         public Notificavel()
         {

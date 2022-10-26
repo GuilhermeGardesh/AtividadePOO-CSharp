@@ -6,9 +6,9 @@ namespace MaoNaMassaPOO.ConteudoContext
     public class ItensDaCarreira : Base
     {
         public ItensDaCarreira(
-            int ordem, 
-            string titulo, 
-            string descricao, 
+            int ordem,
+            string titulo,
+            string descricao,
             Curso curso)
         {
             if (curso == null)
