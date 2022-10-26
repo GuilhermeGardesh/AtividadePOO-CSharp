@@ -1,7 +1,7 @@
 ﻿using MaoNaMassaPOO.NotificacaoContext;
 using System;
 
-namespace MaoNaMassaPOO.ConteudoContext
+namespace MaoNaMassaPOO.CompartilhamentoContext
 {
     public abstract class Base : Notificavel
     {

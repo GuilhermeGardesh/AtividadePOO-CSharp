@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace MaoNaMassaPOO.NotificacaoContext
@@ -8,14 +9,20 @@ namespace MaoNaMassaPOO.NotificacaoContext
     {
         public List<Notificacao> Notificacoes{ get; set; }
 
-        public void Add(Notificacao notificacao)
+        public Notificavel()
+        {
+            Notificacoes = new List<Notificacao>();
+        }
+
+        public void AddNotificacao(Notificacao notificacao)
         {
             Notificacoes.Add(notificacao);
         }
-        public void AddRange(IEnumerable<Notificacao> notificacaos)
+        public void AddNotificacoes(IEnumerable<Notificacao> notificacaos)
         {
             Notificacoes.AddRange(notificacaos);
         }
 
+        public bool EInvalido => Notificacoes.Any();
     }
 }

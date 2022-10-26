@@ -1,4 +1,7 @@
-﻿namespace MaoNaMassaPOO.ConteudoContext
+﻿using MaoNaMassaPOO.CompartilhamentoContext;
+using MaoNaMassaPOO.NotificacaoContext;
+
+namespace MaoNaMassaPOO.ConteudoContext
 {
     public class ItensDaCarreira : Base
     {
@@ -9,7 +12,7 @@
             Curso curso)
         {
             if (curso == null)
-                throw new System.Exception("o curso não pode ser nulo");
+                AddNotificacao(new Notificacao("Curso", "Curso inválido"));
 
             Ordem = ordem;
             Titulo = titulo;

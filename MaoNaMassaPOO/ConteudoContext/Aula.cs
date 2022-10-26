@@ -1,4 +1,5 @@
-﻿using MaoNaMassaPOO.ConteudoContext.Enums;
+﻿using MaoNaMassaPOO.CompartilhamentoContext;
+using MaoNaMassaPOO.ConteudoContext.Enums;
 
 namespace MaoNaMassaPOO.ConteudoContext
 {
